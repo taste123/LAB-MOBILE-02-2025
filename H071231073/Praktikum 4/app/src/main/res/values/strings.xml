@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TP4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleDummy">Buku Anak Harry Potter Dan Batu Bertuah</string>
+    <string name="sinopsisDummy">Seumur hidup, Harry Potter tidak pernah berurusan dengan sihir. Dia tinggal bersama keluarga Dursley yang kejam dan Dudley, putra mereka yang menyebalkan. Kamar Harry cuma lemari sempit di kolong tangga, dan selama sebelas tahun, ulang tahunnya tak pernah dirayakan. Namun, tiba-tiba datang burung hantu membawa surat misterius: surat berisi undangan ke tempat menakjubkan bernama Sekolah Sihir Hogwarts. Dan di sana bukan hanya ada banyak teman, pertandingan olahraga naik sapu terbang, dan sihir dalam segala hal dari pelajaran sampai makanan tapi juga ada takdir luar biasa yang sudah lama menantinya. Jika Harry mampu bertahan hidup. \n\nHarry Potter, hampir seluruh orang di dunia mengenal tokoh anak laki-laki penyihir ini. Jika kamu adalah salah satu penggemar Harry Potter, buku yang satu ini tentu menarik perhatian kamu. Banyak pelajaran yang bisa di dapat dalam novel ini, keseruan dan humornya pun membuat novel ini semakin unggul. Alur ceritanya sangat menarik dan ada banyak mantra yang menarik juga bagi kamu yang mungkin ingin mencoba melafalkannya seolah-olah kamu adalah salah satu penyihir dari dunia Harry Potter. Novel ini semakin dibuat menarik karena persahabatan antara Harry, Ron dan Hermione yang kuat, terutama di detik-detik kesanggupan mereka untuk menggagalkan rencana besar yang jahat. Cerita novel yang menegangkan, dapat membuat jantung berdebar-debar tetapi tetap dapat menghibur para pembaca dengan sisipan humor didalamnya.</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="back">Back</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="DummyWriter">J.K. Rowling</string>
+    <string name="DummyYear">2017</string>
+    <string name="DummyGenre">Fantasy Fiction</string>
+    <string name="title">Title</string>
+    <string name="writer">Writer</string>
+    <string name="year">Year</string>
+    <string name="genre">Genre</string>
+    <string name="blurb">Blurb</string>
+    <string name="upload">Upload</string>
+</resources>

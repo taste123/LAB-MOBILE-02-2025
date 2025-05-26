@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP6</string>
+    <string name="load_more">Load More</string>
+    <string name="dummy_name">Morty Smith</string>
+    <string name="dummy_type">Human</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="dummy_status">Alive</string>
+</resources>

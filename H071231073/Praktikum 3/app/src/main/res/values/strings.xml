@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TP3_Rayhanjahzari</string>
+    <string name="ryn_nzf">ryn.nzf</string>
+    <string name="dots">dots</string>
+    <string name="content">content</string>
+    <string name="like">like</string>
+    <string name="total_like">120</string>
+    <string name="comment">comment</string>
+    <string name="total_comment">17</string>
+    <string name="send">send</string>
+    <string name="total_send">47</string>
+    <string name="save">save</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat .</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur.</string>
+    <string name="date">April 20</string>
+    <string name="liked_by">Liked by @ryn_nzf and 99 others</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="post">Post</string>
+    <string name="reels">Reels</string>
+    <string name="profile">Profile</string>
+    <string name="hamburger">hamburger</string>
+    <string name="ray">ray</string>
+    <string name="post_count">0</string>
+    <string name="posts">posts</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="share_profile">Share profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="caption">caption</string>
+    <string name="write_a_caption">Write a caption...</string>
+    <string name="postimg">postImg</string>
+    <string name="addbtn">addBtn</string>
+    <string name="following">Following</string>
+    <string name="message">Message</string>
+    <string name="followers">followers</string>
+    <string name="following_">following</string>
+    <string name="activity">Activity</string>
+    <string name="more">more</string>
+    <string name="create">create</string>
+    <string name="browse">browse</string>
+</resources>

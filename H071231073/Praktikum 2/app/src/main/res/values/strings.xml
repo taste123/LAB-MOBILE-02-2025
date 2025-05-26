@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">tp2</string>
+
+
+    <!--    main.xml-->
+    <string name="bird1">bird1</string>
+    <string name="buatProfil">BUAT PROFIL</string>
+    <string name="nanti">NANTI</string>
+
+    <!--    registe.xml-->
+    <string name="profil">Profil</string>
+    <string name="accimg">accimg</string>
+    <string name="gantiAvatar">GANTI AVATAR</string>
+    <string name="nama">Nama</string>
+    <string name="entername">Masukkan nama anda</string>
+    <string name="namaPengguna">Nama Pengguna</string>
+    <string name="enterNamaPengguna">Masukkan nama pengguna anda</string>
+    <string name="kataSandi">Kata Sandi</string>
+    <string name="enterPass">Masukkan kata sandi anda</string>
+    <string name="email">Email</string>
+    <string name="enterEmail">Masukkan email anda</string>
+    <string name="submit">SUBMIT</string>
+
+<!--    start.xml-->
+    <string name="setting">setting</string>
+    <string name="phebee">phebee</string>
+    <string name="char1">char</string>
+    <string name="nyctophebee">nyctophebee</string>
+    <string name="bergabung">Bergabung Mei 2020</string>
+    <string name="mengikuti">4 Mengikuti</string>
+    <string name="pengikut">3 Pengikut</string>
+    <string name="add">add</string>
+    <string name="tambahteman">TAMBAHKAN TEMAN</string>
+    <string name="export">export</string>
+    <string name="usa">usa</string>
+    <string name="korea">korea</string>
+    <string name="plusone">+1</string>
+    <string name="ringkasan">Ringkasan</string>
+    <string name="streak">streak</string>
+    <string name="streakscount">73</string>
+    <string name="streaksday">Runtutan hari</string>
+    <string name="xpcount">51388</string>
+    <string name="xptext">Total XP</string>
+    <string name="mingguKe">MINGGU KE-1</string>
+    <string name="mutiara">Mutiara</string>
+    <string name="liga">Liga saat ini</string>
+    <string name="xp">xp</string>
+    <string name="_30">30</string>
+    <string name="skor">Skor Bahasa Inggris</string>
+    <string name="pencapaian">Pencapaian</string>
+    <string name="lihat_semua">LIHAT SEMUA</string>
+    <string name="home">home</string>
+    <string name="mouth">mouth</string>
+    <string name="barbel">barbel</string>
+    <string name="women">women</string>
+    <string name="menudot">menudot</string>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<!-- res/drawable/shape3_with_stroke.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <stroke
+        android:width="2dp"
+        android:color="#61b5d6" /> <!-- Stroke color matching text -->
+
+    <corners
+        android:radius="4dp" /> <!-- Adjust radius as needed -->
+
+    <!-- If you need a transparent fill (stroke only) -->
+    <solid android:color="@android:color/transparent" />
+</shape>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@color/primary_color">
+
+    <TextView
+        android:id="@+id/tvprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/font"
+        android:text="@string/profil"
+        android:textColor="@color/text"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:background="#37464f"
+        app:layout_constraintTop_toBottomOf="@id/tvprofile" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="100dp">
+
+        <ImageView
+            android:id="@+id/imgprofile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/accimg"
+            android:src="@drawable/accimg" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/gantiAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/font"
+        android:text="@string/gantiAvatar"
+        android:textColor="@color/biru"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp">
+
+        <!--        EDIT TEXTVIEW 1-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/font"
+            android:text="@string/nama"
+            android:textColor="@color/text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bgenterprofile"
+            android:hint="@string/entername"
+            android:paddingHorizontal="15dp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!--        EDIT TEXTVIEW 2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/font"
+            android:text="@string/namaPengguna"
+            android:textColor="@color/text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bgenterprofile"
+            android:hint="@string/enterNamaPengguna"
+            android:paddingHorizontal="15dp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!--        EDIT TEXTVIEW 3-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/font"
+            android:text="@string/kataSandi"
+            android:textColor="@color/text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bgenterprofile"
+            android:hint="@string/enterPass"
+            android:paddingHorizontal="15dp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:inputType="textPassword"/>
+
+        <!--        EDIT TEXTVIEW 4-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/font"
+            android:text="@string/email"
+            android:textColor="@color/text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bgenterprofile"
+            android:hint="@string/enterEmail"
+            android:paddingHorizontal="15dp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:text="@string/submit"
+        android:backgroundTint="@color/biru"
+        android:fontFamily="@font/font"
+        android:textColor="@color/primary_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</LinearLayout>
